@@ -10,7 +10,10 @@ command -v xclip >/dev/null 2>&1 || { echo "Error: xclip is required but not ins
 # set snippet dir and create it if it doesn't exist.
 SNIPPET_DIR="${HOME}/.config/snipmenu/snippets"
 
-[ ! -d "$SNIPPET_DIR" ] && mkdir -p "$SNIPPET_DIR"
+if [[ ! -d "$SNIPPET_DIR" ]]; then
+	mkdir -p "$SNIPPET_DIR"
+	echo "Creating new default snippets directory at $SNIPPET_DIR"
+fi
 
 # helper
 select_snippet(){
@@ -47,7 +50,8 @@ case $1 in
 	create)
 		create_snippet
 		;;
-	read)
+	#read
+	"")
 		read_snippet
 		;;
 	update)
