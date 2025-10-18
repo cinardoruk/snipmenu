@@ -1,9 +1,14 @@
 TODO
-* v2.0: snippet previews, center dmenu on the screen, notify that a CRUD operation has completed
-* v1.0: dir has files, we store k:v pairs in filename:content
-* check necessary programs exist(xclip, dmenu, x11, etc)
-* make repo, push v1.0 to it
-* license it
+* v2.0:
+	snippet previews
+	center dmenu on the screen
+	use i-notify to show that a CRUD operation has completed
+	create and update are merged. nvim $filename creates a file if it doesn't exist anyway
+	install.sh (?)
+* DONE v1.0: dir has files, we store k:v pairs in filename:content
+* DONE add feature checking that necessary programs exist(xclip, dmenu)
+* DONE make repo, push v1.0 to it
+* DONE license it
 * DONE make readme
 * DONE kb shortcuts for dwm
 * DONE create a systemwide ~/.config/snipmenu dir if it doesn't exist
