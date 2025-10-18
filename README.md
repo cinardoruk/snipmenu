@@ -1,5 +1,7 @@
 # snipmenu
 
+![demo](./demo.gif)
+
 A simple snippet manager using dmenu for quick access to text snippets.
 
 ## Features
