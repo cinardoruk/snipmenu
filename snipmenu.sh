@@ -1,24 +1,6 @@
 #!/bin/bash
 :<<COMMENT
-Optional description of script.
-TODO
-* v2.0: snippet previews, center dmenu on the screen, notify that a CRUD operation has completed
-* v1.0: dir has files, we store k:v pairs in filename:content
-* check necessary programs exist(xclip, dmenu, x11, etc)
-* make repo, push v1.0 to it
-* license it
-* make readme
-* DONE create a systemwide ~/.config/snipmenu dir if it doesn't exist
-* CRUD
-	create
-		* DONE open $EDITOR to add new snippet
-	read
-		* DONE copy file contents to clipboard
-	update
-		* DONE open $EDITOR to edit selected snippet file
-	delete
-		* DONE delete selected
-
+snipmenu - a simple tool to store and retrieve strings using dmenu. best bound to kb shortcuts.
 COMMENT
 
 # Check that dmenu and xclip are installed
