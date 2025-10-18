@@ -4,8 +4,8 @@ TODO
 * check necessary programs exist(xclip, dmenu, x11, etc)
 * make repo, push v1.0 to it
 * license it
-* make readme
-* kb shortcuts for dwm
+* DONE make readme
+* DONE kb shortcuts for dwm
 * DONE create a systemwide ~/.config/snipmenu dir if it doesn't exist
 * CRUD
 	create
